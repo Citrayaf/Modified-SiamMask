@@ -1,0 +1,1 @@
+https://books.google.co.id/books?id=w86PDwAAQBAJ&pg=PA237&lpg=PA237&dq=cv2.RETR_EXTERNAL,+cv2.CHAIN_APPROX_NONE&source=bl&ots=q1J4Hr3eu9&sig=ACfU3U13TRNfNAryhTTvO8wl4J15mGh-zQ&hl=id&sa=X&ved=2ahUKEwjxlbDIy_HpAhV_8HMBHf7KCYUQ6AEwDnoECAcQAQ#v=onepage&q=cv2.RETR_EXTERNAL&f=false

@@ -1,0 +1,74 @@
+[2020-06-17 16:12:44,700-rk0-test.py#710] Namespace(arch='Custom', config='config_vot.json', cpu=False, dataset='VOT2018', debug=False, gt=False, log='log_test.txt', mask=True, refine=True, resume='SiamMask_VOT.pth', save_mask=False, video='', visualization=False)
+[2020-06-17 16:12:45,112-rk0-features.py# 66] Current training 0 layers:
+	
+[2020-06-17 16:12:45,113-rk0-features.py# 66] Current training 1 layers:
+	
+[2020-06-17 16:12:45,207-rk0-load_helper.py# 31] load pretrained model from SiamMask_VOT.pth
+[2020-06-17 16:12:47,504-rk0-load_helper.py# 25] remove prefix 'module.'
+[2020-06-17 16:12:47,506-rk0-load_helper.py# 18] used keys:356
+/usr/local/lib/python3.6/dist-packages/torch/nn/functional.py:1890: UserWarning: nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.")
+/usr/local/lib/python3.6/dist-packages/torch/nn/functional.py:1890: UserWarning: nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.")
+[2020-06-17 16:13:05,740-rk0-test.py#571] (1) Video: ants1        Time: 13.6s Speed: 23.8fps Lost: 6
+[2020-06-17 16:13:38,408-rk0-test.py#571] (2) Video: ants3        Time: 24.8s Speed: 23.3fps Lost: 8
+[2020-06-17 16:13:47,072-rk0-test.py#571] (3) Video: bag          Time: 8.3s Speed: 23.5fps Lost: 0
+[2020-06-17 16:13:52,792-rk0-test.py#571] (4) Video: ball1        Time: 4.7s Speed: 22.0fps Lost: 0
+[2020-06-17 16:13:54,747-rk0-test.py#571] (5) Video: ball2        Time: 1.6s Speed: 24.6fps Lost: 1
+[2020-06-17 16:14:26,763-rk0-test.py#571] (6) Video: basketball   Time: 29.7s Speed: 24.3fps Lost: 1
+[2020-06-17 16:14:48,881-rk0-test.py#571] (7) Video: birds1       Time: 14.8s Speed: 22.8fps Lost: 1
+[2020-06-17 16:14:58,211-rk0-test.py#571] (8) Video: blanket      Time: 9.1s Speed: 24.5fps Lost: 0
+[2020-06-17 16:15:02,224-rk0-test.py#571] (9) Video: bmx          Time: 3.5s Speed: 21.6fps Lost: 0
+[2020-06-17 16:15:18,513-rk0-test.py#571] (10) Video: bolt1        Time: 14.1s Speed: 24.7fps Lost: 0
+[2020-06-17 16:15:30,645-rk0-test.py#571] (11) Video: bolt2        Time: 11.7s Speed: 25.0fps Lost: 1
+[2020-06-17 16:15:37,659-rk0-test.py#571] (12) Video: book         Time: 6.5s Speed: 26.9fps Lost: 5
+[2020-06-17 16:15:44,445-rk0-test.py#571] (13) Video: butterfly    Time: 6.3s Speed: 23.7fps Lost: 0
+[2020-06-17 16:16:18,177-rk0-test.py#571] (14) Video: car1         Time: 30.5s Speed: 24.3fps Lost: 3
+[2020-06-17 16:16:36,506-rk0-test.py#571] (15) Video: conduction1  Time: 15.0s Speed: 22.9fps Lost: 1
+[2020-06-17 16:16:45,122-rk0-test.py#571] (16) Video: crabs1       Time: 6.9s Speed: 22.9fps Lost: 1
+[2020-06-17 16:16:51,872-rk0-test.py#571] (17) Video: crossing     Time: 5.9s Speed: 22.1fps Lost: 0
+[2020-06-17 16:17:05,703-rk0-test.py#571] (18) Video: dinosaur     Time: 13.2s Speed: 24.6fps Lost: 0
+[2020-06-17 16:17:13,317-rk0-test.py#571] (19) Video: drone_across Time: 6.3s Speed: 23.0fps Lost: 1
+[2020-06-17 16:17:18,776-rk0-test.py#571] (20) Video: drone_flip   Time: 4.6s Speed: 24.5fps Lost: 2
+[2020-06-17 16:17:36,542-rk0-test.py#571] (21) Video: drone1       Time: 14.8s Speed: 23.9fps Lost: 4
+[2020-06-17 16:17:50,225-rk0-test.py#571] (22) Video: fernando     Time: 12.5s Speed: 23.3fps Lost: 0
+[2020-06-17 16:18:05,933-rk0-test.py#571] (23) Video: fish1        Time: 14.4s Speed: 25.3fps Lost: 2
+[2020-06-17 16:18:19,177-rk0-test.py#571] (24) Video: fish2        Time: 12.2s Speed: 25.2fps Lost: 2
+[2020-06-17 16:18:41,832-rk0-test.py#571] (25) Video: fish3        Time: 21.0s Speed: 24.6fps Lost: 1
+[2020-06-17 16:19:54,759-rk0-test.py#571] (26) Video: flamingo1    Time: 60.9s Speed: 22.6fps Lost: 2
+[2020-06-17 16:20:14,694-rk0-test.py#571] (27) Video: frisbee      Time: 13.7s Speed: 18.0fps Lost: 3
+[2020-06-17 16:21:21,704-rk0-test.py#571] (28) Video: girl         Time: 62.4s Speed: 24.0fps Lost: 3
+[2020-06-17 16:21:27,011-rk0-test.py#571] (29) Video: glove        Time: 5.0s Speed: 24.0fps Lost: 0
+[2020-06-17 16:21:42,875-rk0-test.py#571] (30) Video: godfather    Time: 14.6s Speed: 25.0fps Lost: 0
+[2020-06-17 16:22:20,799-rk0-test.py#571] (31) Video: graduate     Time: 34.4s Speed: 24.5fps Lost: 0
+[2020-06-17 16:22:43,995-rk0-test.py#571] (32) Video: gymnastics1  Time: 22.5s Speed: 25.2fps Lost: 2
+[2020-06-17 16:22:56,541-rk0-test.py#571] (33) Video: gymnastics2  Time: 10.7s Speed: 22.3fps Lost: 0
+[2020-06-17 16:23:02,737-rk0-test.py#571] (34) Video: gymnastics3  Time: 5.2s Speed: 22.4fps Lost: 1
+[2020-06-17 16:23:12,933-rk0-test.py#571] (35) Video: hand         Time: 9.8s Speed: 27.2fps Lost: 5
+[2020-06-17 16:23:28,520-rk0-test.py#571] (36) Video: handball1    Time: 15.1s Speed: 24.9fps Lost: 1
+[2020-06-17 16:23:46,657-rk0-test.py#571] (37) Video: handball2    Time: 16.4s Speed: 24.4fps Lost: 2
+[2020-06-17 16:24:19,246-rk0-test.py#571] (38) Video: helicopter   Time: 30.2s Speed: 23.4fps Lost: 1
+[2020-06-17 16:24:48,039-rk0-test.py#571] (39) Video: iceskater1   Time: 27.8s Speed: 23.8fps Lost: 0
+[2020-06-17 16:25:19,690-rk0-test.py#571] (40) Video: iceskater2   Time: 29.7s Speed: 23.7fps Lost: 3
+[2020-06-17 16:25:22,700-rk0-test.py#571] (41) Video: leaves       Time: 2.5s Speed: 25.3fps Lost: 2
+[2020-06-17 16:25:27,011-rk0-test.py#571] (42) Video: matrix       Time: 4.0s Speed: 24.8fps Lost: 1
+[2020-06-17 16:25:33,818-rk0-test.py#571] (43) Video: motocross1   Time: 6.4s Speed: 25.5fps Lost: 2
+[2020-06-17 16:25:37,219-rk0-test.py#571] (44) Video: motocross2   Time: 3.0s Speed: 20.3fps Lost: 0
+[2020-06-17 16:26:26,958-rk0-test.py#571] (45) Video: nature       Time: 44.6s Speed: 22.4fps Lost: 3
+[2020-06-17 16:26:32,767-rk0-test.py#571] (46) Video: pedestrian1  Time: 5.7s Speed: 24.6fps Lost: 0
+[2020-06-17 16:26:38,806-rk0-test.py#571] (47) Video: rabbit       Time: 5.6s Speed: 28.2fps Lost: 5
+[2020-06-17 16:26:45,861-rk0-test.py#571] (48) Video: racing       Time: 6.5s Speed: 23.7fps Lost: 0
+[2020-06-17 16:27:14,468-rk0-test.py#571] (49) Video: road         Time: 24.6s Speed: 22.7fps Lost: 0
+[2020-06-17 16:27:30,595-rk0-test.py#571] (50) Video: shaking      Time: 15.1s Speed: 24.1fps Lost: 0
+[2020-06-17 16:27:40,151-rk0-test.py#571] (51) Video: sheep        Time: 9.1s Speed: 27.5fps Lost: 6
+[2020-06-17 16:27:56,876-rk0-test.py#571] (52) Video: singer2      Time: 15.7s Speed: 23.2fps Lost: 0
+[2020-06-17 16:28:03,450-rk0-test.py#571] (53) Video: singer3      Time: 6.1s Speed: 21.3fps Lost: 1
+[2020-06-17 16:28:20,145-rk0-test.py#571] (54) Video: soccer1      Time: 15.5s Speed: 25.3fps Lost: 3
+[2020-06-17 16:28:26,195-rk0-test.py#571] (55) Video: soccer2      Time: 5.1s Speed: 25.2fps Lost: 3
+[2020-06-17 16:28:33,452-rk0-test.py#571] (56) Video: soldier      Time: 5.9s Speed: 23.2fps Lost: 2
+[2020-06-17 16:28:50,225-rk0-test.py#571] (57) Video: tiger        Time: 15.4s Speed: 23.6fps Lost: 0
+[2020-06-17 16:29:00,116-rk0-test.py#571] (58) Video: traffic      Time: 8.4s Speed: 22.7fps Lost: 0
+[2020-06-17 16:29:14,948-rk0-test.py#571] (59) Video: wiper        Time: 13.9s Speed: 24.4fps Lost: 1
+[2020-06-17 16:29:43,036-rk0-test.py#571] (60) Video: zebrafish1   Time: 20.4s Speed: 19.6fps Lost: 2
+[2020-06-17 16:29:43,037-rk0-test.py#757] Total Lost: 94
+[2020-06-17 16:29:43,037-rk0-test.py#759] Mean Speed: 23.84 FPS
